@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ChannelActivity">
+
+    <Button
+        android:id="@+id/buttonKtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonKtn"
+        android:text="KTN HOME" />
+
+    <Button
+        android:id="@+id/buttonK24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonK24"
+        android:text="K24"
+        android:layout_below="@+id/buttonKtn"/>
+
+    <Button
+        android:id="@+id/buttonAljazeera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonAljazeera"
+        android:text="Aljazeera"
+        android:layout_below="@+id/buttonK24"/>
+
+    <Button
+        android:id="@+id/buttonCnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonCnn"
+        android:text="CNN"
+        android:layout_below="@+id/buttonAljazeera"/>
+</RelativeLayout>
